@@ -189,9 +189,9 @@ const Portfolio = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6">
             {[
-              { icon: <Github className="w-6 h-6" />, href: '#' },
-              { icon: <Linkedin className="w-6 h-6" />, href: '#' },
-              { icon: <Mail className="w-6 h-6" />, href: '#' },
+              { icon: <Github className="w-6 h-6" />, href: 'https://github.com/GautamJain2004' },
+              { icon: <Linkedin className="w-6 h-6" />, href: 'https://www.linkedin.com/in/gautam-jain-b27358375/' },
+              { icon: <Mail className="w-6 h-6" />, href: 'jaingautam10092004@gmail.com' },
             ].map((social, index) => (
               <a
                 key={index}
@@ -301,19 +301,23 @@ const Portfolio = () => {
             Ready to bring your vision to life? Let's collaborate and build something extraordinary together.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <button className="group px-8 py-4 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-full hover:from-purple-500 hover:to-cyan-500 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25">
-              <span className="flex items-center justify-center gap-2">
-                <Mail className="w-5 h-5" />
-                Get In Touch
-              </span>
-            </button>
-            <button className="px-8 py-4 border border-purple-500 rounded-full hover:bg-purple-500/10 transition-all duration-300 hover:scale-105">
+<div className="flex flex-col sm:flex-row gap-6 justify-center">
+  <a
+    href="mailto:jaingautam10092004@gmail.com"
+    className="group px-8 py-4 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-full hover:from-purple-500 hover:to-cyan-500 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25"
+  >
+    <span className="flex items-center justify-center gap-2">
+      <Mail className="w-5 h-5" />
+      Get In Touch
+    </span>
+  </a>
+
+            {/* <button className="px-8 py-4 border border-purple-500 rounded-full hover:bg-purple-500/10 transition-all duration-300 hover:scale-105">
               <span className="flex items-center justify-center gap-2">
                 Schedule a Call
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
-            </button>
+            </button> */}
           </div>
         </div>
       </section>
@@ -326,9 +330,9 @@ const Portfolio = () => {
           </div>
           <div className="flex space-x-6">
             {[
-              { icon: <Github className="w-5 h-5" />, href: '#' },
-              { icon: <Linkedin className="w-5 h-5" />, href: '#' },
-              { icon: <Mail className="w-5 h-5" />, href: '#' },
+             { icon: <Github className="w-6 h-6" />, href: 'https://github.com/GautamJain2004' },
+              { icon: <Linkedin className="w-6 h-6" />, href: 'https://www.linkedin.com/in/gautam-jain-b27358375/' },
+              { icon: <Mail className="w-6 h-6" />, href: 'jaingautam10092004@gmail.com' },
             ].map((social, index) => (
               <a
                 key={index}
